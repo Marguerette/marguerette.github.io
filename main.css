@@ -1,0 +1,223 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+body, html {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  font-family: 'Lato', sans-serif, Arial;
+}
+.clearfx:after,:before {
+content:'';
+display:block;
+clear:both;
+height:0; 
+}
+.inlinebl{
+  display: inline-block;
+}
+
+
+
+
+.sites-11, .sites-1 {
+    display: inline-block;
+  float: left;
+  position: relative;
+  padding: 0px;
+   margin: 0;
+  
+}
+.sites-21, .sites-2 {
+    display: inline-block;
+  float: right;
+  position: relative;
+  padding: 0 20px;
+   margin: 0;
+
+}
+
+.sites-11-1{
+ background: url(pict/pic1.jpg) no-repeat 100%;
+ background-size: cover;
+ z-index: 1;
+height: 200px ;
+
+}
+.sites-21-1{
+ background: url(pict/pic2.jpg) no-repeat 100%;
+ background-size: cover;
+ z-index: 1;
+height: 200px ;
+}
+.sites-31-1{
+ background: url(pict/pic3.jpg) no-repeat 100%;
+ background-size: cover;
+ z-index: 1;
+height: 200px ;
+}
+.sites-41-1{
+ background: url(pict/pic4.jpg) no-repeat 100%;
+ background-size: cover;
+ z-index: 1;
+height: 200px ;
+}
+.sites-51-1{
+ background: url(pict/pic5.jpg) no-repeat 100%;
+ background-size: cover;
+ z-index: 1;
+height: 200px ;
+}
+.sites-61-1{
+ background: url(pict/pic6.jpg) no-repeat 100%;
+ background-size: cover;
+ z-index: 1;
+height: 200px ;
+}
+
+
+
+
+
+
+
+.contact {
+    background-color: #CC0066;
+    height: 50px;
+    width: 100%;
+border-radius: 5px;
+
+  }
+
+ .logo-main, .logo-phone, .menu-list *{
+  display: inline-block;
+  float: left;
+  position: relative;
+  padding: 0px;
+   margin: 0;
+
+}
+
+
+.logo{
+margin-top: 15px;
+margin-bottom: 15px;
+height: 150px;
+
+}
+
+
+.logo{
+  width: 100%;
+
+}
+.logo-main{
+  height: 150px;
+text-align: center;
+
+}
+
+
+.logo-img{
+  text-align: center;
+  width: 15em;
+  height: 10em;
+}
+
+
+.menu {
+    background-color: #CC0066;
+text-align: center;
+vertical-align: center;
+width: 100%;
+height: 40px;
+border-radius: 5px;
+line-height: 40px;
+  }
+
+.menu-list {
+  width: 100%;
+
+  
+}
+.menu-list *{
+line-height: 40px;
+text-align: center;
+margin: 0 auto; 
+padding-left: 10px; 
+padding-right: 10px; 
+font-size: 10pt;
+color: white;
+text-transform: uppercase;
+text-decoration: none;
+transition: all .2s ease-in-out .1s;
+   }
+
+.menu-list *:hover{
+  transition: all .2s ease-in-out .1s;
+    color: white;
+    text-decoration: none;
+    background-color: #a4c1db;
+       }
+
+.menu-list *:active{
+    color: white;
+    text-decoration: none;
+    background-color: #a4c1db;
+       }
+.menu-list *:visited{
+    color: white;
+    text-decoration: none;
+    background-color: none;
+       }
+
+.promo{
+  margin-bottom: 15px;
+}
+.promo-items{
+  background: url(pict/sale.jpg) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+
+}
+
+h1{
+  text-align: center;
+}
+
+
+
+.benefits h3{
+text-align: center;
+}
+.map-info{
+font-size: 0.7em;
+}
+
+.map-info, .map-maps{
+display: inline-block;
+float: left;
+}
+
+.map-info p{
+  font-size: 1.2em;
+
+}
+
+footer {
+  margin-top: 20px; 
+    background-color: #CC0066;
+text-align: center;
+vertical-align: center;
+width: 100%;
+height: 80px;
+border:1px solid #CC0067;
+border-radius: 5px;
+
+font-size: 0.7em;
+color: white;
+  }
+
+
+
